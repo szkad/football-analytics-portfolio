@@ -18,9 +18,10 @@ data/processed/*
 !data/processed/.gitkeep
 !data/README.md
 
-# Outputs grandes
-outputs/figures/*.png
-outputs/figures/*.jpg
+# Outputs - permitir PNG/JPG finales para mostrar en README
+# (descomenta si después generas muchas imágenes pesadas)
+# outputs/figures/*.png
+# outputs/figures/*.jpg
 !outputs/figures/.gitkeep
 
 # VS Code

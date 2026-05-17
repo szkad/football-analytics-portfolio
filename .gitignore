@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+
+# Data (no subir datos pesados a Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+
+# Outputs grandes
+outputs/figures/*.png
+outputs/figures/*.jpg
+!outputs/figures/.gitkeep
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credenciales (por si usas APIs)
+.env
+*.key
+credentials.json
+
+# Power BI (si subes algo después)
+*.pbix

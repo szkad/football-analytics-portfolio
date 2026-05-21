@@ -24,7 +24,7 @@ data/processed/*
 # outputs/figures/*.jpg
 !outputs/figures/.gitkeep
 
-# VS Code
+# VS Codegit add .
 .vscode/
 *.code-workspace
 
